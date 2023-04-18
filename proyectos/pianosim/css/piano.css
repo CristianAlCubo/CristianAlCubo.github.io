@@ -1,0 +1,53 @@
+#title{
+    font-size: 6rem;
+}
+
+#keys{
+    position: relative;
+}
+
+.key{
+    cursor: pointer;
+    padding-left: 10px;
+    border: 1px solid #3f3f3f;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 300px;
+    max-height: 300px;
+    font-size: 3.5rem;    
+    background-color: #fff;
+    display: flex;
+    align-items: end;
+    box-shadow: 8px 7px rgba(0, 0, 0, 0.212);
+    user-select: none;
+}
+
+.pressed{
+    margin-top: 10px;
+    background-color: rgb(214, 214, 214);
+}
+
+.key-black{
+    cursor: pointer;
+    padding: 0px 0px 10px 6px;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 175px;
+    max-height: 175px;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: end;
+    user-select: none;
+}
+
+
+
+.kb1{left: calc(75px + (100px * 0));}
+.kb2{left: calc(75px + (100px * 1));}
+.kb3{left: calc(75px + (100px * 3));}
+.kb4{left: calc(75px + (100px * 4));}
+.kb5{left: calc(75px + (100px * 5));}
+.kb6{left: calc(75px + (100px * 633));}
+

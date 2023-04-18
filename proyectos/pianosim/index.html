@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/notas.js"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
+    <link rel="stylesheet" href="css/piano.css">
+    <title>PianoSim</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center">
+        <h1 id="title">PIANO VIRTUAL</h1>
+    </div>
+    <div id="options" class="d-flex justify-content-center mb-5">
+        <div class="option d-flex me-5">
+            <input type="checkbox" name="key_checkbox" id="key_checkbox" class="me-4 mt-1" checked>
+            <span>Mostrar teclas</span>
+        </div>
+        <div class="option d-flex">
+            <input type="checkbox" name="note_checkbox" id="note_checkbox" class="me-4 mt-1">
+            <span>Mostrar notas</span>
+        </div>
+    </div>
+    <div id="piano" class="d-flex justify-content-center">
+        <div id="keys" class="d-flex">
+            <div id="C" class="key">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note d-none">Do</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(Q)</span>
+                </div>
+            </div>
+            <div id="Csharp" class="key-black kb1">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note fs-4 d-none">Do#</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(2)</span>
+                </div>
+            </div>
+            <div id="D" class="key">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note d-none">Re</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(W)</span>
+                </div>
+            </div>
+            <div id="Dsharp" class="key-black kb2">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note fs-4 d-none">Re#</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(3)</span>
+                </div>
+            </div>
+            <div id="E" class="key">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note d-none">Mi</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(E)</span>
+                </div>
+            </div>
+            <div id="F" class="key">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note d-none">Fa</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(R)</span>
+                </div>
+            </div>
+            <div id="Fsharp" class="key-black kb3">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note fs-4 d-none">Fa#</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(5)</span>
+                </div>
+            </div>
+            <div id="G" class="key">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note d-none">Sol</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(T)</span>
+                </div>
+            </div>
+            <div id="Gsharp" class="key-black kb4">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note fs-4 d-none">Sol#</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(6)</span>
+                </div>
+            </div>
+            <div id="A" class="key">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note d-none">La</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(Y)</span>
+                </div>
+            </div>
+            <div id="Asharp" class="key-black kb5">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note fs-4 d-none">La#</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(7)</span>
+                </div>
+            </div>
+            <div id="B" class="key">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note d-none">Si</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(U)</span>
+                </div>
+            </div>
+            <div id="Ch" class="key">
+                <div class="key_info d-flex flex-column align-items-center">
+                    <span class="key_note d-none">Do'</span>
+                    <span class="key_keyboard-key text-secondary fs-4">(I)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
